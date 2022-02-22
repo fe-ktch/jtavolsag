@@ -19,17 +19,18 @@ class Tavolsag {
 	System.out.println("Keszitette: Sangare Fantha Felisha\nFeladat: 0349\n2022-02-22, SZOFT I N");
 	System.out.println("----------------------------------");
 
-	double magassag, szog;
-	
+	double magassag, szog, rszog;
+
 	System.out.print("Magassag: ");
 	magassag = scan.nextInt();
 	
 	System.out.print("Szog: ");
 	szog = scan.nextInt();
+	rszog = Math.toRadians(szog);
 
-    double tavolsag = magassag / (Math.sin(szog));
+    double tavolsag = magassag / (Math.sin(rszog));
     
-    System.out.printf("Tavolsag: %.3f", tavolsag);
+    System.out.println("Tavolsag: " + tavolsag);
 
 	}
 }
