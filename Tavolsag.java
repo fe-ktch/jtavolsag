@@ -1,3 +1,13 @@
+/*
+* File: Tavolsag.java
+* Author: Sangare Fantha Felisha
+* Copyright: 2022, Sangare Fantha Felisha
+* Group: Szoft I N
+* Date: 2022-02-22
+* Github: https://github.com/fe-ktch/
+* Licenc: GNU GPL
+*/
+
 import java.util.Scanner; 
 import java.lang.Math;
 
