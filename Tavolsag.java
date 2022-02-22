@@ -15,7 +15,7 @@ class Tavolsag {
 	public static void main(String[] args){
 	Scanner scan = new Scanner(System.in);	
 
-    System.out.println("----------------------------------");
+    	System.out.println("----------------------------------");
 	System.out.println("Keszitette: Sangare Fantha Felisha\nFeladat: 0349\n2022-02-22, SZOFT I N");
 	System.out.println("----------------------------------");
 
